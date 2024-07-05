@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Form-Information</title>
+</head>
+<body>
+
+    <form action="">
+        <fieldset>
+            <legend>STUDENT-FORM</legend>
+        <h1 style="text-align: center;"><i>STUDENT FORM INFORMATION</i></h1>
+
+        <label for="fnam">#First Name:</label><br>
+        <input required type="text" id="fnam" placeholder="Enter your First Name"> <br> <br> 
+
+        <label for="lnam">#Last Name:</label><br>
+        <input type="text" id="lnam" placeholder="Enter your Last Name"> <br><br>
+
+        <label for="email">#Email address:</label><br>
+        <input type="text" id="email" placeholder="Enter your email"> <br> <br>
+
+        <label for="Ph">#Phone Number:</label><br>
+        <input type="number" id="ph" placeholder="Enter your Phone"><br> <br>
+
+        <label for="pass">#Password:</label><br>
+        <input type="password" id="pass" placeholder="Enter your password"><br> <br>
+
+        <label for="con">#Confirm password:</label><br>
+        <input type="password" id="con" placeholder="Enter your confirm password"><br> <br>
+
+        <label for="db">#Date of birth:</label><br>
+        <input type="date" id="db" placeholder="Enter your date of birth"><br> <br>
+
+        <label for="dt">#Date & time:</label><br>
+        <input type="datetime-local" id="dt" placeholder="Enter current date&time"><br> <br>
+
+
+      <label for="division">#Enter Your Division:</label> <br>
+     <select name="division" id="division">
+        <option disabled value="">Enter your Division</option>
+        <option value="Chittagong">Chittagong</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Barishal"> Barishal</option>
+        <option value="Rajshahi">Rajshahi</option>
+        <option value="Mymensingh">Mymensingh</option>
+        <option value="Sylhet">Sylhet</option>
+     </select><br><br>
+     
+     <p>#Enter Your Gender:</p>
+     <input type="radio" name="m" id="men" value="Men">
+     <label for="men">Men</label> <br>
+     <input type="radio" name="m" id="women" value="Women">
+     <label for="women">Women</label><br>
+     <input type="radio" name="m" id="Others" value="Others">
+     <label for="Others">Others</label> <br> <br>
+
+     <label for="dc">#Enter Your Document:</label><br>
+     <input type="file" id="dc" accept=".png, .jpg" placeholder="Enter your document"><br> <br>
+
+     <button>Reset</button> 
+     <button>Submit</button>
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>
